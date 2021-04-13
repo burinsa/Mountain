@@ -62,7 +62,7 @@ body {
     min-height: 650px;
     color: #FCFCFC;
     background-color: #000000;
-    background-image: url(img/everest.jpg);
+    background-image: url(/img/everest.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
@@ -176,7 +176,7 @@ body {
     left: 11px;
     width: 13px;
     height: 13px;
-    background-image: url(img/search.svg);
+    background-image: url(/img/search.svg);
     background-repeat: no-repeat;
 }
 
@@ -187,7 +187,7 @@ body {
     left: 11px;
     width: 13px;
     height: 13px;
-    background-image: url(img/login.svg);
+    background-image: url(/img/login.svg);
     background-repeat: no-repeat;
 }
 
@@ -385,7 +385,7 @@ body {
     width: 13px;
     height: 16px;
     left: -21px;
-    background-image: url(img/location.png);
+    background-image: url(/img/location.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -487,7 +487,7 @@ body {
     right: 53px;
     width: 10px;
     height: 13px;
-    background-image: url(img/Vector-img.png);
+    background-image: url(/img/Vector-img.png);
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 1;
@@ -560,9 +560,9 @@ body {
     padding-right: 10px;
     /* margin-bottom: 133px; */
     min-height: 757px;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(230, 232, 234, 0.8)), to(rgba(230, 232, 234, 0.8))), url(img/Rectangle\ 9.jpg);
-    background: -o-linear-gradient(bottom, rgba(230, 232, 234, 0.8), rgba(230, 232, 234, 0.8)), url(img/Rectangle\ 9.jpg);
-    background: linear-gradient(0deg, rgba(230, 232, 234, 0.8), rgba(230, 232, 234, 0.8)), url(img/Rectangle\ 9.jpg);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(230, 232, 234, 0.8)), to(rgba(230, 232, 234, 0.8))), url(/img/Rectangle\ 9.jpg);
+    background: -o-linear-gradient(bottom, rgba(230, 232, 234, 0.8), rgba(230, 232, 234, 0.8)), url(/img/Rectangle\ 9.jpg);
+    background: linear-gradient(0deg, rgba(230, 232, 234, 0.8), rgba(230, 232, 234, 0.8)), url(/img/Rectangle\ 9.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: 0 0, center center;
     background-size: auto, cover;
