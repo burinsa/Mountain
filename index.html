@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/style.css" type="text/css">
+</head>
+<body>
+    
+    <header class="page-header">
+        <div class="content-wrapper">
+            <a class="logo">Mountain</a>
+            <nav class="header-nav header-nav--closed">
+                <button class="main-nav__toggle " type="button"><span class="visually-hidden">Открыть меню</span></button>
+                <div class="header-nav__wrap">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tours" class="nav-link">Туры</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#selection" class="nav-link">Подбор тура</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">Блог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="user-nav">
+                        <li class="nav-item nav-tel">
+                            <a href="tel:+88007773325" class="nav-link">8 (800) 777-33-25</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="btn-nav search" title="Поиск"><span class="visually-hidden">Поиск</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="btn-nav login" title="Вход"><span class="visually-hidden">Вход</span></a>
+                        </li>
+                    </ul>
+                </div>                
+            </nav>
+        </div>
+        <div class="wrap-promo">
+            <p class="promo-title">Эверест</p>
+            <a href="#" class="btn btn-header">Подробнее</a>
+        </div>        
+    </header>
+
+    <main>
+        <article class="about" id="about">
+            <div class="wrap-about">
+                <h2 class="heading">Туры с восхождением на вершины мира</h2>
+                <p class="about-text">Мы являемся экспертами в организации альпинистских туров для опытных альпинистов и для новичков. Вы можете доверить нам полную организацию вашего приключения от А до Я и быть уверенными в качестве и безопасности восхождения.</p>
+                <p class="about-text">Наша компания предоставляет все необходимое: консультацию по выбору тура, перелет, визу, бронирование проживания, питание, оборудование, необходимое для восхождения, опытных гидов, полное сопровождение.</p>
+            </div>
+            <div class="wrap-map">
+                <img class="map-world" src="img/Group 63.png" alt="карта">
+            </div>            
+        </article>
+
+        <section class="popular-tours" id="popular">
+            <h2 class="heading">Популярные туры</h2>
+            <div class="content-wrapper">
+                <ul class="popular-list">
+                    <li class="popular-item show">
+                        <a class="tour-post">
+                            <img src="img/belukha.jpg" alt="гора Белуха" class="tour-image">
+                            <p class="location">Россия</p>
+                            <h3 class="tour-heading">Белуха</h3>
+                            <div class="table">                                
+                                <div class="table-td">4506 м</div>
+                                <div class="table-td">12 дней</div>
+                                <div class="table-td">от 45000 &#8381;</div>                                
+                            </div>
+                            <p class="tour-level">Средний уровень</p>
+                        </a>
+                    </li>
+                    <li class="popular-item">
+                        <a class="tour-post">
+                            <img src="img/elbrus.jpg" alt="гора Эльбрус" class="tour-image">
+                            <p class="location">Россия</p>
+                            <h3 class="tour-heading">Эльбрус</h3>
+                            <div class="table">                                
+                                <div class="table-td">5642 м</div>
+                                <div class="table-td">10 дней</div>
+                                <div class="table-td">от 25000 &#8381;</div>                                
+                            </div>
+                            <p class="tour-level">Средний уровень</p>
+                        </a>
+                    </li>
+                    <li class="popular-item">
+                        <a class="tour-post">
+                            <img src="img/kilimanjaro.jpg" alt="гора Килиманджаро" class="tour-image">
+                            <p class="location">Танзания</p>
+                            <h3 class="tour-heading">Килиманджаро</h3>
+                            <div class="table">                                
+                                <div class="table-td">5895 м</div>
+                                <div class="table-td">4 дня</div>
+                                <div class="table-td">от 55000 &#8381;</div>                                
+                            </div>
+                            <p class="tour-level">Простой уровень</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="wrap-button">
+                    <button class="button btn-left tour-prev" title="Влево">
+                        <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 4.5L2 4.5M2 4.5L5.66667 8M2 4.5L5.66667 1" stroke="#061B28" stroke-width="2"/>
+                        </svg>
+                        <span class="visually-hidden">Влево</span>
+                    </button>
+                    <button class="button btn-right tour-next" title="Вправо">
+                        <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 4.5H11M11 4.5L7.33333 1M11 4.5L7.33333 8" stroke="#061B28" stroke-width="2"/>
+                        </svg>
+                        <span class="visually-hidden">Вправо</span>
+                    </button>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="tours" id="tours">
+            <div class="wrap-tours-nav">
+                <button class="button btn-left" title="Влево">
+                    <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 4.5L2 4.5M2 4.5L5.66667 8M2 4.5L5.66667 1" stroke="#061B28" stroke-width="2"/>
+                    </svg>
+                    <span class="visually-hidden">Влево</span>
+                </button>
+                <div class="wrap-tours-header">
+                    <h2 class="heading">Россия</h2>
+                    <p class="description">Более 15 туров для альпинистов всех уровней</p>
+                </div>                
+                <button class="button btn-right" title="Вправо">
+                    <svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 4.5H11M11 4.5L7.33333 1M11 4.5L7.33333 8" stroke="#061B28" stroke-width="2"/>
+                    </svg>
+                    <span class="visually-hidden">Вправо</span>
+                </button>
+            </div>
+            
+            <div class="wrap-tours-table">
+                <table class="tours-table">
+                    <tr>
+                        <th>Вершина</th>
+                        <th>Высота</th>
+                        <th>Уровень</th>
+                        <th>Стоимость</th>
+                    </tr>
+                    <tr>
+                        <td>Эльбрус</td>
+                        <td>5642 м</td>
+                        <td>Средний</td>
+                        <td>от 25 000 &#8381;</td>
+                    </tr>
+                    <tr>
+                        <td>Казбек</td>
+                        <td>5033 м</td>
+                        <td>Сложный</td>
+                        <td>от 30 000 &#8381;</td>
+                    </tr>
+                    <tr>
+                        <td>Белуха</td>
+                        <td>4506 м</td>
+                        <td>Простой</td>
+                        <td>от 20 000 &#8381;</td>
+                    </tr>
+                    <tr>
+                        <td>Дыхтау</td>
+                        <td>5204 м</td>
+                        <td>Сложный</td>
+                        <td>от 40 000 &#8381;</td>
+                    </tr>
+                </table>
+                <a href="#" class="btn btn-table">Смотреть все</a>
+            </div>           
+        </section>
+
+        <section class="blog" id="blog">
+            <h2 class="heading">Блог</h2>            
+            <div class="content-wrapper">
+                
+                <div class="wrap-articles-list article-hidden">
+                    <ul class="articles-list">
+                        <li class="article-item active">
+                            <time class="post-data" datetime="2020-01-15">15 января, 2020</time>
+                            <p class="post-heading">Как подготовиться к первому восхождению на вершину</p>
+                        </li>
+                        <li class="article-item">
+                            <time class="post-data" datetime="2020-01-10">10 января, 2020</time>
+                            <p class="post-heading">Фестиваль Alpika Freeski Аlpindustria Fest Красная Поляна 13-16 февраля</p>
+                        </li>
+                        <li class="article-item">
+                            <time class="post-data" datetime="2019-12-20">20 декабря, 2019</time>
+                            <p class="post-heading">Особенности альпинизма на Камчатке. Все о Ключевой Сопке</p>
+                        </li>
+                        <li class="article-item">
+                            <time class="post-data" datetime="2019-12-15">15 декабря, 2019</time>
+                            <p class="post-heading">Что происходит с человеком на высоте более 3000 метров?</p>
+                        </li>
+                        <li class="article-item">
+                            <time class="post-data" datetime="2019-12-15">15 декабря, 2019</time>
+                            <p class="post-heading">Что происходит с человеком на высоте более 3000 метров?</p>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-blog">Читать все новости</a>
+                </div>
+                <div class="wrap-articles">
+                    <a class="to-list">к списку</a>
+                    <article class="blog-article">
+                        <img src="img/Rectangle 11.jpg" alt="Восхождение на вершину" class="post-image">
+                        <time class="post-data" datetime="2020-01-15">15 января, 2020</time>
+                        <h3 class="article-heading">Как подготовиться к первому восхождению на вершину</h3>
+                        <p class="article-text">Перед тем, как отправиться на покорение вершины горы, нужно не только привести в порядок свою физическую форму, но и тренировать выносливость, дыхательную и сердечно-сосудистую системы. Именно на них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, бегом, велосипедом и кардиотренировками.
+                        </p>
+                        <p class="article-text">Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно, эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с бегом обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не только сбросить вес, но и укрепит сердечную мышцу. При беге с высоким пульсом вы позволите организму привыкнуть к недостатку кислорода — то, с чем обязательно встретитесь в горах. Для укрепления физической подготовки и повышения выносливости также бегайте в горку или в быстром темпе поднимайтесь по лестницам. И не забудьте отдохнуть за неделю до путешествия!</p>
+                    </article>
+                </div>                
+            </div>            
+        </section>
+
+        <section class="tour-selection" id="selection">
+            <div class="tour-wrapper">
+                <div class="wrap-selection">
+                    <div class="wrap-form">
+                        <h2 class="heading">Нужна помощь<br> с выбором тура?</h2>
+                        <p class="tour-info">Заполните форму, наш менеджер свяжется с вами в ближайшее время и подберет подходящий тур</p>
+                        <form class="tour-form" action="#">
+                            <p class="input-wrapper">
+                                <input type="text" id="name" name="name" placeholder="Имя">
+                            </p>
+                            <p class="input-wrapper">                            
+                                <input type="tel" name="tel" id="tel" placeholder="Телефон">
+                            </p>
+                            <p class="input-wrapper">                            
+                                <input type="email" name="email" id="email" placeholder="E-mail">
+                            </p>
+                            <button class="btn btn-submit" type="submit">Отправить</button>
+                            <p class="form-consent">Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных</p>
+                        </form>
+                    </div>                              
+                </div>
+                <div class="wrap">
+                    <img src="img/Rectangle 13 form.jpg" alt="горы" class="selection-image">
+                </div>               
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="wrap-contacts-map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2dd6565b52c21b98a836e450944e5e95f825823081ac8d9921adfd03328d0789&amp;source=constructor" width="600" height="457" frameborder="0"></iframe>
+                <p class="contacts-map"><img src="/img/map.jpg" alt="kapta" width="600" height="457" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург."></p>
+            </div>
+            <div class="wrap-contacts-adds">
+                <h2 class="heading">Контакты</h2>
+                <p class="contacts-label">Адрес:</p>
+                <p class="contacts-value">Санкт-Петербург,<br> ул. Большая Конюшенная, 19</p>
+                <p class="contacts-label">Телефон:</p>
+                <p class="contacts-value">8 (800) 777-33-25</p>
+                <p class="contacts-label">E-mail:</p>
+                <p class="contacts-value">info@mountain.ru</p>
+                <p class="contacts-label">Социальные сети:</p>
+                <ul class="contacts-social-list">
+                    <li class="contacts-social-item">
+                        <a href="#" class="contacts-social-btn"><span class="visually-hidden">Фейсбук</span>
+                            <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.33333 11.5H9.95238L11 7.5H7.33333V5.5C7.33333 4.47 7.33333 3.5 9.42857 3.5H11V0.14C10.6585 0.0970001 9.36886 0 8.00695 0C5.16267 0 3.14286 1.657 3.14286 4.7V7.5H0V11.5H3.14286V20H7.33333V11.5Z" fill="#061B28"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="contacts-social-item">
+                        <a href="#" class="contacts-social-btn"><span class="visually-hidden">Инстаграм</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C12.717 0 13.056 0.00999994 14.122 0.0599999C15.187 0.11 15.912 0.277 16.55 0.525C17.21 0.779 17.766 1.123 18.322 1.678C18.8305 2.1779 19.224 2.78259 19.475 3.45C19.722 4.087 19.89 4.813 19.94 5.878C19.987 6.944 20 7.283 20 10C20 12.717 19.99 13.056 19.94 14.122C19.89 15.187 19.722 15.912 19.475 16.55C19.2247 17.2178 18.8311 17.8226 18.322 18.322C17.822 18.8303 17.2173 19.2238 16.55 19.475C15.913 19.722 15.187 19.89 14.122 19.94C13.056 19.987 12.717 20 10 20C7.283 20 6.944 19.99 5.878 19.94C4.813 19.89 4.088 19.722 3.45 19.475C2.78233 19.2245 2.17753 18.8309 1.678 18.322C1.16941 17.8222 0.775931 17.2175 0.525 16.55C0.277 15.913 0.11 15.187 0.0599999 14.122C0.0129999 13.056 0 12.717 0 10C0 7.283 0.00999994 6.944 0.0599999 5.878C0.11 4.812 0.277 4.088 0.525 3.45C0.775236 2.78218 1.1688 2.17732 1.678 1.678C2.17767 1.16923 2.78243 0.775729 3.45 0.525C4.088 0.277 4.812 0.11 5.878 0.0599999C6.944 0.0129999 7.283 0 10 0ZM10 5C8.67392 5 7.40215 5.52678 6.46447 6.46447C5.52678 7.40215 5 8.67392 5 10C5 11.3261 5.52678 12.5979 6.46447 13.5355C7.40215 14.4732 8.67392 15 10 15C11.3261 15 12.5979 14.4732 13.5355 13.5355C14.4732 12.5979 15 11.3261 15 10C15 8.67392 14.4732 7.40215 13.5355 6.46447C12.5979 5.52678 11.3261 5 10 5ZM16.5 4.75C16.5 4.41848 16.3683 4.10054 16.1339 3.86612C15.8995 3.6317 15.5815 3.5 15.25 3.5C14.9185 3.5 14.6005 3.6317 14.3661 3.86612C14.1317 4.10054 14 4.41848 14 4.75C14 5.08152 14.1317 5.39946 14.3661 5.63388C14.6005 5.8683 14.9185 6 15.25 6C15.5815 6 15.8995 5.8683 16.1339 5.63388C16.3683 5.39946 16.5 5.08152 16.5 4.75ZM10 7C10.7956 7 11.5587 7.31607 12.1213 7.87868C12.6839 8.44129 13 9.20435 13 10C13 10.7956 12.6839 11.5587 12.1213 12.1213C11.5587 12.6839 10.7956 13 10 13C9.20435 13 8.44129 12.6839 7.87868 12.1213C7.31607 11.5587 7 10.7956 7 10C7 9.20435 7.31607 8.44129 7.87868 7.87868C8.44129 7.31607 9.20435 7 10 7Z" fill="#061B28"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="contacts-social-item">
+                        <a href="#" class="contacts-social-btn"><span class="visually-hidden">Твиттер</span>
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.999 1.89937C19.25 2.22538 18.4556 2.43949 17.6423 2.53461C18.4996 2.03012 19.1412 1.23616 19.4476 0.300674C18.6431 0.771788 17.761 1.10195 16.8416 1.28055C16.2241 0.630434 15.4056 0.199271 14.5133 0.0540959C13.621 -0.0910793 12.705 0.0578671 11.9076 0.477779C11.1103 0.897691 10.4762 1.56504 10.1041 2.37608C9.73199 3.18712 9.64261 4.09641 9.84988 4.96259C8.21832 4.88212 6.62219 4.46495 5.16512 3.73814C3.70805 3.01133 2.42261 1.99113 1.39227 0.743792C1.02756 1.36015 0.835906 2.06082 0.836931 2.77403C0.836931 4.17386 1.56103 5.41053 2.66189 6.13458C2.01041 6.1144 1.37327 5.94129 0.803571 5.62968V5.67988C0.803768 6.61216 1.13164 7.5157 1.7316 8.23728C2.33156 8.95886 3.16668 9.45408 4.09537 9.63898C3.4906 9.80024 2.85646 9.82401 2.24097 9.70849C2.50281 10.511 3.01315 11.2128 3.70054 11.7157C4.38793 12.2185 5.21794 12.4973 6.07437 12.513C5.2232 13.1707 4.2486 13.657 3.20632 13.9439C2.16403 14.2308 1.0745 14.3127 0 14.185C1.87568 15.3719 4.05916 16.002 6.28925 16C13.8373 16 17.9651 9.84751 17.9651 4.51175C17.9651 4.33797 17.9602 4.16227 17.9523 3.99043C18.7558 3.41908 19.4492 2.71129 20 1.90034L19.999 1.89937Z" fill="#061B28"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>            
+        </section>        
+    </main>
+
+    <footer class="main-footer">
+        <div class="content-wrapper">
+            <p class="copyright">Maroon &copy; 2020 Все права защищены</p>
+            <a class="logo">Mountain</a>
+            <p class="copyright">Политика конфиденциальности</p>
+        </div>        
+    </footer>
+    <script src="build/js/script.js"></script>
+</body>
+</html>
