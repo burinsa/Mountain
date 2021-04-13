@@ -62,7 +62,7 @@ body {
     min-height: 650px;
     color: #FCFCFC;
     background-color: #000000;
-    background-image: url(.../img/everest.jpg);
+    background-image: url(/build/img/everest.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
